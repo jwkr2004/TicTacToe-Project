@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(126, 126, 126);
+    font-family: 'Roboto';
+}
+
+#Board{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 31vh 31vh 31vh;
+    text-align: center;
+    width: 54%;
+    position: absolute;
+    left: 23%;
+    top: 2.5%;
+    grid-gap: 6px;
+    border: 1px solid black; 
+}
+
+#Board div{
+    background-color: lightskyblue;
+}
+
+#Board div p{
+    position: relative;
+    top: 27%;
+    color: rgb(63, 63, 63);
+    font-size: 2em;
+}
+
+#reload{
+    display: inline;
+    color: white;
+    background-color: rgb(63, 63, 63);
+    border:white solid 1px;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 4%;
+    top: 2.5%;
+    padding: 0.3%;
+}
+
+
+
+#p1{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#p2{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#p3{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#p4{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#p5{
+    border: 1px solid black;
+}
+#p6{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#p7{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+#p8{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+#p9{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
